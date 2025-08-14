@@ -39,4 +39,3 @@ let resultado = 0;
  }
 }
 main();
-test test-,
