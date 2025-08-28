@@ -1,0 +1,68 @@
+body {
+    background: #393939;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 2rem;
+}
+
+.container {
+    background: #fef9ff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0.6px 20px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #281e8e;
+}
+
+input-group {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.input-group input {
+    flex: 1;
+    padding: 0.6rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.input-group button {
+    padding: 0.6rem 1rem;
+    border: none;
+    background: #6c63ff;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+ul#studentList {
+    list-style: none;
+    padding: 0;
+}
+
+ul#studentList li {
+    padding: 0.7rem;
+    border-radius: 8px;
+    background: #e0e0e0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.passed {
+    color: green;
+    font-weight: bold;
+}
+
+.failed {
+    color: red;
+    font-weight: bold;
+}
