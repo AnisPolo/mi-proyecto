@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #71b7e6;
+    padding: 2rem;
+    width: 90%;
+    max-width: 500px;
+    border-radius: 16px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #212020;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+}
+
+.todo-input input {
+    flex: 1;
+    padding: 0.75rem;
+    border-radius: 10px;
+    border: 1px ;
+}
+
+
+.task-complete {
+    text-decoration: line-through;
+    color: #999;
+}
